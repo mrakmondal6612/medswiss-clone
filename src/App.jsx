@@ -1,6 +1,7 @@
 import React from 'react';
+import Navber from './components/Navber';
 
 function app() {
-  return <h1 className="bg-green-500 text-white">hello world</h1>;
+  return <Navber />;
 }
 export default app;
