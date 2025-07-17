@@ -3,9 +3,9 @@ import React from 'react';
 const Navber = () => {
   return (
     <>
-      <div className="bg-gray-100 py-4 px-5 max-w-screen overflow-hidden">
-        <div className="  flex justify-center items-center gap-4 ">
-          <div className="mt-2">
+      <div className="bg-gray-100 py-2.5 px-2 max-w-screen overflow-hidden ">
+        <div className="  flex justify-center items-center gap-4  ">
+          <div>
             <svg
               width="60"
               height="20"
@@ -35,14 +35,14 @@ const Navber = () => {
             </svg>
           </div>
           <div className="h-6 w-[0.5px] bg-black"></div>
-          <p className="from-neutral-700 ">
+          <p className="from-gray-700 ">
             This website was built on Wix. Create yours today.
           </p>
-          <button className="px-4 py-[1px]  rounded-full border border-blue-500 text-blue-600 hover:bg-blue-600 hover:text-white mt-1 ">
+          <button className="px-4 py-[1px]  rounded-full border border-blue-500 text-blue-600 hover:bg-blue-600 hover:text-white  ">
             Get Started
           </button>
         </div>
-        <div className="w-full h-[0.5px] bg-blue-600 flex flex-col mt-2"></div>
+        <div className="w-full h-[0.5px] bg-blue-600 flex flex-col mt-3"></div>
       </div>
     </>
   );
