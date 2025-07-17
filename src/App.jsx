@@ -1,7 +1,7 @@
 import React from 'react';
-import Navber from './components/Navber';
+import TopBanner from './components/TopBanner';
 
 function app() {
-  return <Navber />;
+  return <TopBanner />;
 }
 export default app;
