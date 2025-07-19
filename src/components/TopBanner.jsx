@@ -3,7 +3,7 @@ import React from 'react';
 const Navber = () => {
   return (
     <>
-      <div className="bg-gray-100 py-2.5 px-2 max-w-screen overflow-hidden ">
+      <div className="bg-gray-100 py-2.5 px-2 max-w-screen overflow-hidden  ">
         <div className="  flex justify-center items-center gap-4  ">
           <div>
             <svg
